@@ -11,22 +11,24 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var label1: UILabel!
-
+    @IBOutlet var camisetas: [Camiseta]!
+    @IBOutlet weak var balon: Balon!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
-    
-    
-    @IBAction func action(sender: AnyObject) {
-        hidingLabel();
         
+        var gesture = UITapGestureRecognizer()
+        gesture.addTarget(self, action: Selector("balonSeleccionado:"))
+        balon.addGestureRecognizer(gesture)
     }
     
-    func hidingLabel(){
-        label1.text = "Te amo con todo mi corazon amor, gracias por apoyarme :*";
-        label1.numberOfLines = 2;
+    func balonSeleccionado(sender: AnyObject) {
+        var numero = 0;
+        for camiseta in camisetas {
+            camiseta.estableceNumero(numero)
+            numero++
+        }
     }
-
 }
 

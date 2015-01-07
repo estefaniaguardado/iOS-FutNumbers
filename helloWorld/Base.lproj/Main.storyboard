@@ -111,6 +111,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <view contentMode="scaleToFill" id="AYr-Nx-54i" customClass="Camiseta" customModule="helloWorld" customModuleProvider="target">
+                                <rect key="frame" x="334" y="98" width="108" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                             <view contentMode="scaleToFill" id="vXD-Vr-sef" customClass="Camiseta" customModule="helloWorld" customModuleProvider="target">
                                 <rect key="frame" x="155" y="103" width="108" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -127,12 +132,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="h4P-y7-PnI" customClass="Balon" customModule="helloWorld" customModuleProvider="target">
-                                <rect key="frame" x="261" y="212" width="113" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <view contentMode="scaleToFill" id="AYr-Nx-54i" customClass="Camiseta" customModule="helloWorld" customModuleProvider="target">
-                                <rect key="frame" x="334" y="98" width="108" height="114"/>
+                                <rect key="frame" x="244" y="224" width="113" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
@@ -141,6 +141,14 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="balon" destination="h4P-y7-PnI" id="3iM-9N-6Cx"/>
+                        <outletCollection property="camisetas" destination="AYr-Nx-54i" collectionClass="NSMutableArray" id="gB8-XK-wgn"/>
+                        <outletCollection property="camisetas" destination="vXD-Vr-sef" collectionClass="NSMutableArray" id="yl6-Fk-un7"/>
+                        <outletCollection property="camisetas" destination="SKV-sC-6sp" collectionClass="NSMutableArray" id="cf2-YX-KWZ"/>
+                        <outletCollection property="camisetas" destination="Rk7-QU-wt5" collectionClass="NSMutableArray" id="tCz-rH-L96"/>
+                        <outletCollection property="camisetas" destination="XGf-RO-Fnh" collectionClass="NSMutableArray" id="dvs-fQ-AYo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
