@@ -111,23 +111,28 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" id="AYr-Nx-54i" customClass="Camiseta" customModule="helloWorld" customModuleProvider="target">
-                                <rect key="frame" x="155" y="15" width="108" height="114"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
                             <view contentMode="scaleToFill" id="vXD-Vr-sef" customClass="Camiseta" customModule="helloWorld" customModuleProvider="target">
-                                <rect key="frame" x="165" y="25" width="108" height="114"/>
+                                <rect key="frame" x="155" y="103" width="108" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="Rk7-QU-wt5" customClass="Camiseta" customModule="helloWorld" customModuleProvider="target">
-                                <rect key="frame" x="175" y="35" width="108" height="114"/>
+                                <rect key="frame" x="261" y="5" width="108" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="SKV-sC-6sp" customClass="Camiseta" customModule="helloWorld" customModuleProvider="target">
-                                <rect key="frame" x="185" y="45" width="108" height="114"/>
+                                <rect key="frame" x="382" y="5" width="108" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="h4P-y7-PnI" customClass="Balon" customModule="helloWorld" customModuleProvider="target">
+                                <rect key="frame" x="261" y="212" width="113" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="AYr-Nx-54i" customClass="Camiseta" customModule="helloWorld" customModuleProvider="target">
+                                <rect key="frame" x="334" y="98" width="108" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
