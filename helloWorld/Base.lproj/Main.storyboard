@@ -20,40 +20,12 @@
                                 <rect key="frame" x="10" y="10" width="108" height="94"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="whistleSymbol" id="Vzg-AB-Civ">
-                                <rect key="frame" x="33" y="217" width="58" height="55"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="exitGame" id="DlA-An-1go">
                                 <rect key="frame" x="32" y="275" width="123" height="40"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="restartGame" id="XYI-ZF-8gq">
                                 <rect key="frame" x="429" y="254" width="123" height="46"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="whistleSymbol" id="ik5-ap-kO0">
-                                <rect key="frame" x="33" y="174" width="58" height="55"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="addSymbol" id="VBs-d6-0Ee">
-                                <rect key="frame" x="65" y="196" width="21" height="21"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="whistleSymbol" id="9bw-Dz-Vvx">
-                                <rect key="frame" x="94" y="174" width="58" height="55"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="subSymbol" id="BmA-NK-ja9">
-                                <rect key="frame" x="127" y="-115" width="20" height="640"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="whistleSymbol" id="8LC-9r-ARv">
-                                <rect key="frame" x="94" y="217" width="58" height="55"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="divisionSymbol" id="g1o-fs-5cY">
-                                <rect key="frame" x="127" y="239" width="20" height="21"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="pantalla" id="aNd-uC-EsL">
@@ -74,10 +46,6 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="multSymbol" id="km2-iW-rbt">
-                                <rect key="frame" x="65" y="235" width="21" height="30"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restart" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yN4-zQ-BqW">
                                 <rect key="frame" x="478" y="265" width="73" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -136,6 +104,26 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <view contentMode="scaleToFill" id="alj-kM-Mct" customClass="Operador" customModule="helloWorld" customModuleProvider="target">
+                                <rect key="frame" x="26" y="172" width="51" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="tDG-pY-ewc" customClass="Operador" customModule="helloWorld" customModuleProvider="target">
+                                <rect key="frame" x="36" y="182" width="51" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="pBe-gL-2Th" customClass="Operador" customModule="helloWorld" customModuleProvider="target">
+                                <rect key="frame" x="46" y="192" width="51" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="Kvr-zD-qYC" customClass="Operador" customModule="helloWorld" customModuleProvider="target">
+                                <rect key="frame" x="56" y="202" width="51" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -148,6 +136,7 @@
                         <outletCollection property="camisetas" destination="SKV-sC-6sp" collectionClass="NSMutableArray" id="cf2-YX-KWZ"/>
                         <outletCollection property="camisetas" destination="Rk7-QU-wt5" collectionClass="NSMutableArray" id="tCz-rH-L96"/>
                         <outletCollection property="camisetas" destination="XGf-RO-Fnh" collectionClass="NSMutableArray" id="dvs-fQ-AYo"/>
+                        <outletCollection property="operadores" destination="Kvr-zD-qYC" collectionClass="NSMutableArray" id="T6U-Ax-Hec"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -156,15 +145,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="addSymbol" width="600" height="598"/>
-        <image name="divisionSymbol" width="567" height="428"/>
         <image name="exitGame" width="447" height="100"/>
         <image name="menuGame" width="735" height="449"/>
-        <image name="multSymbol" width="512" height="512"/>
         <image name="pantalla" width="298" height="144"/>
         <image name="restartGame" width="447" height="100"/>
-        <image name="subSymbol" width="640" height="640"/>
-        <image name="whistleSymbol" width="640" height="401"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

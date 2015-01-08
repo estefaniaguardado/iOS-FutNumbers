@@ -15,6 +15,7 @@
 		CA2CBB6A1A5C665000A52FD7 /* helloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2CBB691A5C665000A52FD7 /* helloWorldTests.swift */; };
 		CA2CBB781A5CB1C900A52FD7 /* Camiseta.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2CBB771A5CB1C900A52FD7 /* Camiseta.swift */; };
 		CA630BF11A5CC33000B29669 /* Balon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA630BF01A5CC33000B29669 /* Balon.swift */; };
+		CA630BF31A5E076400B29669 /* Operador.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA630BF21A5E076400B29669 /* Operador.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		CA2CBB691A5C665000A52FD7 /* helloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloWorldTests.swift; sourceTree = "<group>"; };
 		CA2CBB771A5CB1C900A52FD7 /* Camiseta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camiseta.swift; sourceTree = "<group>"; };
 		CA630BF01A5CC33000B29669 /* Balon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balon.swift; sourceTree = "<group>"; };
+		CA630BF21A5E076400B29669 /* Operador.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operador.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				CA2CBB511A5C664F00A52FD7 /* Supporting Files */,
 				CA2CBB771A5CB1C900A52FD7 /* Camiseta.swift */,
 				CA630BF01A5CC33000B29669 /* Balon.swift */,
+				CA630BF21A5E076400B29669 /* Operador.swift */,
 			);
 			path = helloWorld;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				CA2CBB561A5C664F00A52FD7 /* ViewController.swift in Sources */,
 				CA2CBB541A5C664F00A52FD7 /* AppDelegate.swift in Sources */,
 				CA630BF11A5CC33000B29669 /* Balon.swift in Sources */,
+				CA630BF31A5E076400B29669 /* Operador.swift in Sources */,
 				CA2CBB781A5CB1C900A52FD7 /* Camiseta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
